@@ -1,5 +1,6 @@
 ### Summary: Include screen shots or a video of your app highlighting its features
 RecipeApp/RecipeApp/RecipeApp.mov
+https://share.icloud.com/photos/070QcyyQLigu1lr0p25NabEvw
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 Firstly, I wanted to focus on the minimum requirements, displaying each recipe should show its name, photo, and cuisine type. After that was completed, I wanted to go above and beyond by creating a detail view to show more data such as the large recipe image, source url and youtube url in a cool navigation flow, as well as includiong search funcitonality and pull to refresh on the main recipe list screen. I also wanted to focus on caching images, so I included a stack overflow solution called AsyncCachedImage to handle this. Next I prioritized using  Swift concurrency / async await for the network request, as well as including tests to test said network request. I also prioritized not use any third party sdks for this solution, as requested.
