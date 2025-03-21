@@ -1,6 +1,9 @@
 ### Summary: Include screen shots or a video of your app highlighting its features
-RecipeApp/RecipeApp/RecipeApp.mov
-https://share.icloud.com/photos/070QcyyQLigu1lr0p25NabEvw
+**Light Mode**
+![image](https://github.com/user-attachments/assets/f165fc6b-b735-40d1-8441-78cf8b2223c1) ![image](https://github.com/user-attachments/assets/70c0c65f-c007-461f-a6b7-b7b12f9eb0c6) ![image](https://github.com/user-attachments/assets/83cf4db5-3c1b-4368-8dad-21ce18a76c57)
+
+**Dark Mode**
+![image](https://github.com/user-attachments/assets/dc398f6a-6493-42a4-93cf-e4d05faff808) ![image](https://github.com/user-attachments/assets/ff31467e-6a77-4865-a176-5932361c3d6f) ![image](https://github.com/user-attachments/assets/abecbfaa-830b-4a32-b348-42c7decb79e1)
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 Firstly, I wanted to focus on the minimum requirements, displaying each recipe should show its name, photo, and cuisine type. After that was completed, I wanted to go above and beyond by creating a detail view to show more data such as the large recipe image, source url and youtube url in a cool navigation flow, as well as includiong search funcitonality and pull to refresh on the main recipe list screen. I also wanted to focus on caching images, so I included a stack overflow solution called AsyncCachedImage to handle this. Next I prioritized using  Swift concurrency / async await for the network request, as well as including tests to test said network request. I also prioritized not use any third party sdks for this solution, as requested.
